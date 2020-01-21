@@ -1,16 +1,33 @@
 h1 {
 	text-align: center;
+	line-height: 1.1;
+	overflow-wrap: break-word;
 	color: black;
+	font-family:sans-serif, "Arial Black";
+	font-weight: 700;
+}
+
+h3{
+	line-height: 1.1;
+	overflow-wrap: break-word;
+	color: black;
+	font-family:sans-serif, "Arial Black";
+	font-weight: 700;
 }
 
 img{
-	width: 300px;
+	width: 400px;
 	height: auto;
 	border: solid gray;
 }
 
 body{
-	text-align: left;
+	font-size: 1.8rem;
+	line-height: 1.25;
+	max-width: 38em;
+	margin: auto;
+	color: black;
+	padding: 13px;
 	background-image: url("cool-background.png");
 	background-position: center;
 	font-family: sans-serif, Arial;
