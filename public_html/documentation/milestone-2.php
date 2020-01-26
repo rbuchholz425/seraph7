@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Seraph 7</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style-2.css">
 </head>
 
 <body>

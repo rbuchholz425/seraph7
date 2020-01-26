@@ -15,14 +15,8 @@ h3{
 	font-weight: 700;
 }
 
-.wireframe{
-	alignment: center;
-	width: 1000px;
-	height: auto;
-}
-
 img{
-	width: 400px;
+	width: 1000px;
 	height: auto;
 	border: solid gray;
 }
