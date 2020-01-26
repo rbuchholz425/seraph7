@@ -43,8 +43,9 @@
 <br>
 
 <h1>Wireframes:</h1>
+<p>This site will feature one layout and be fully responsive on both PC and mobile devices. I created these wireframes using mockflow.com.</p>
 
-<!--<img src=""alt="">-->
+<img src="S7%20Wireframe.png" alt="Wireframe">
 
 </body>
 </html>
