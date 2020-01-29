@@ -33,6 +33,10 @@
 	Here will be a dropdown bar that links to several different discord servers on different popular games.
 </p>
 
+<h3>Testimonials:</h3>
+
+<p>Here there will be review made by users about how they like the Seraph 7 service and the Discord servers made by me.</p>
+
 <h3>Contact:</h3>
 
 <p>
