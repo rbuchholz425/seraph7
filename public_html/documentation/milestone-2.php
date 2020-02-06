@@ -10,7 +10,11 @@
 
 <h1>Content Strategy</h1>
 
-<p>My site will be one page, and will consist of the following sections:</p>
+<p>
+	This site will be a hub for people looking for new friends to play games with together.
+	It will do this through having links to quality-made Discord servers where people can find and hangout with other gamers.
+	My site will be one page, and will consist of the following sections:
+</p>
 
 <h3>Welcome:</h3>
 
@@ -30,18 +34,22 @@
 <h3>Discord Drop Down:</h3>
 
 <p>
-	Here will be a dropdown bar that links to several different discord servers on different popular games.
+	Here will be a dropdown bar that links to several different discord servers of different popular games.
 </p>
 
 <h3>Testimonials:</h3>
 
-<p>Here there will be review made by users about how they like the Seraph 7 service and the Discord servers made by me.</p>
+<p>
+	Here there will be reviews made by users about how much they like the Seraph 7 service and the Discord servers made by Seraph 7.
+	These reviews will be shown through a horizontally scrolling picture element.
+	The reviews will be received through both the Discord servers and the contact form.
+</p>
 
 <h3>Contact:</h3>
 
 <p>
 	This will be a simple contact form for the user to contact me with new ideas or concerns.
-	This section will also contain below it a link to a Twitter, Main Discord, and maybe my GitHub.
+	This section will also contain below it a link to a Twitter, Main Discord, and maybe my Twitch.
 </p>
 
 <br>
