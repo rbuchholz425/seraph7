@@ -8,3 +8,15 @@ My personal website project for Deep Dive Coding.
 * Your page is very neat and concise. Really well done.
 
 **Grade Tier: IV**
+
+
+## Milestone 2 Feedback
+* Cool back ground and styling!
+* Great job with your content strategy- very clear and simple
+* Cool wireframes!
+* It is clear that you put a lot of effort into this assignment
+* You should have no issues achieving your wireframe mockups
+* Great job, I look forward to seeing the finished product!
+* Early submission
+
+**Grade: Tier IV**
