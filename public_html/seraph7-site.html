@@ -5,7 +5,7 @@
 <!--	Bootstrap implementation code below:-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -112,11 +112,27 @@
 <!--This is the testimonials section of the site.-->
 <div class="container card float-sm-left my-5" style="width: 100em;; height: 30em" id="Testimonials">
 	<div class="row no-gutters">
-		<div class="col-md-9">
+		<div class="col-md-12">
 			<div class="card-body">
 				<h5 class="card-title">Seraph7 Testimonials:</h5>
-				<p class="card-text">It is the name of your true self. You've only forgotten. I know there is good in you. The Emperor hasn't driven it from you fully. That is why you couldn't destroy me. That's why you won't bring me to your Emperor now. I see you have constructed a new lightsaber. Your skills are complete. Indeed, you are powerful, as the Emperor has foreseen. Come with me. Obi-Wan once thought as you do. You don't know the power of the dark side. I must obey my master. I will not turn...and you'll be forced to kill me. If that is your destiny.</p>
-				<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+				<div class="row text-center py-5">
+					<div class="col-lg-3">
+						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+						<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+					</div>
+					<div class="col-lg-3">
+						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+						<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+					</div>
+					<div class="col-lg-3">
+						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+						<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+					</div>
+					<div class="col-lg-3">
+						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+						<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -128,21 +144,21 @@
 			<div class="card-body">
 				<h5 class="card-title">Contact Us:</h5>
 				<form>
-					<div class="form-group">
-						<label for="name-box">Name:</label>
-						<input type="email" class="form-control" id="name-box" placeholder="Jane Doe">
+					<div class="form-group ml-5 pr-5">
+						<label for="name-box"></label>
+						<input type="text" class="form-control" id="name-box" placeholder="Name">
 					</div>
 					<div class="form-group">
-						<label for="email-box">Email address:</label>
-						<input type="email" class="form-control" id="email-box" placeholder="name@example.com">
+						<label for="email-box"></label>
+						<input type="email" class="form-control" id="email-box" placeholder="Email">
+					</div>
+					<div class="form-group ml-5 pr-5">
+						<label for="subject-box"></label>
+						<input type="text" class="form-control" id="subject-box" placeholder="Subject">
 					</div>
 					<div class="form-group">
-						<label for="subject-box">Subject:</label>
-						<input type="email" class="form-control" id="subject-box" placeholder="Type the subject of your message here.">
-					</div>
-					<div class="form-group">
-						<label for="message-box">Email address</label>
-						<input type="email" class="form-control" id="message-box" placeholder="Type the message you would like to send here.">
+						<label for="message-box"></label>
+						<input type="text" class="form-control" id="message-box" placeholder="Message">
 					</div>
 					<div class="form-check">
 						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -156,6 +172,18 @@
 		</div>
 	</div>
 </div>
+<!--This is my footer that sits at the bottom of my webpage.-->
+<footer class="fixed-bottom navbar navbar-light bg-light">
+	<a class="navbar-brand" href="#">
+		<img src="Twitch-Glitch-Purple.png" width="30" height="30" alt="Twitch">
+	</a>
+	<a class="navbar-brand" href="#">
+		<img src="Discord-Logo-Color.png" width="40" height="40" alt="Discord">
+	</a>
+	<a class="navbar-brand" href="#">
+		<img src="Twitter-Icon.png" width="30" height="30" alt="Twitter">
+	</a>
+</footer>
 
 </body>
 </html>
