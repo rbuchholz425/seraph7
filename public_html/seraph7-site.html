@@ -5,6 +5,7 @@
 <!--	Bootstrap implementation code below:-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
 </head>
 <body>
 <!--Navbar at the top of my site page-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -51,7 +52,8 @@
 	</div>
 </div>
 <!--This is the About S7 card based at the top of the site.-->
-<div class="container card float-sm-right mb-5" style="width: 100em;; height: 30em" id="About">
+<div class="w-80 float-sm-right">
+<div class="container card mb-5" style="width: 100em; height: 30em" id="About">
 	<div class="row no-gutters">
 		<div class="col-md-9">
 			<div class="card-body">
@@ -62,16 +64,17 @@
 		</div>
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="..." class="card-img" alt="S7 1-Wing">
+			<img src="S7-Wing-Trans.png" class="card-img" alt="S7 1-Wing">
 		</div>
 	</div>
+</div>
 </div>
 <!--This will be the famous quote box tag line box on the site-->
 <div class="container card float-sm-left my-5" style="width: 100em;; height: 30em" id="Quote">
 	<div class="row no-gutters">
 		<!--		This should show the logo icon to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="..." class="card-img" alt="S7 Icon">
+			<img src="Green%20Full%20Trans.png" class="card-img" alt="S7 Icon">
 		</div>
 		<div class="col-md-9">
 			<div class="card-body">
@@ -85,11 +88,23 @@
 	<div class="row no-gutters">
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="..." class="card-img" alt="Discord Symbol">
+			<img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" class="card-img" alt="Discord Symbol">
 		</div>
 		<div class="col-md-9">
 			<div class="card-body">
 				<h5 class="card-title">Seraph7 Discords:</h5>
+				<div class="btn-group">
+					<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Join a Seraph7 Discord Server!
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Seraph7 Main</a>
+						<a class="dropdown-item" href="#">Seraph7 LoL</a>
+						<a class="dropdown-item" href="#">Seraph7 The Division 2</a>
+						<a class="dropdown-item" href="#">Seraph7 Monster Hunter World</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -112,6 +127,31 @@
 		<div class="col-md-9">
 			<div class="card-body">
 				<h5 class="card-title">Contact Us:</h5>
+				<form>
+					<div class="form-group">
+						<label for="name-box">Name:</label>
+						<input type="email" class="form-control" id="name-box" placeholder="Jane Doe">
+					</div>
+					<div class="form-group">
+						<label for="email-box">Email address:</label>
+						<input type="email" class="form-control" id="email-box" placeholder="name@example.com">
+					</div>
+					<div class="form-group">
+						<label for="subject-box">Subject:</label>
+						<input type="email" class="form-control" id="subject-box" placeholder="Type the subject of your message here.">
+					</div>
+					<div class="form-group">
+						<label for="message-box">Email address</label>
+						<input type="email" class="form-control" id="message-box" placeholder="Type the message you would like to send here.">
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						<label class="form-check-label" for="defaultCheck1">
+							RECAPTCHA
+						</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Send</button>
+				</form>
 			</div>
 		</div>
 	</div>
