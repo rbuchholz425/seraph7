@@ -11,9 +11,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!--	Site Title (Tab Title)-->
 	<title>Seraph7</title>
+<!--	TODO: Fix the size of all of the cards to fit the mock-up.-->
 </head>
 <body>
-<!--Navbar at the top of my site page-->
+<!--Nav-bar at the top of my site page-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -22,10 +23,11 @@
 		<!--		This is the logo icon meant to always be on the right side of the navbar.-->
 		<div class="collapse navbar-collapse">
 			<a class="navbar-brand" href="#">
-				<img src="Black Icon Trans.png" width="80" height="54" alt="S7 Mini Logo">
+<!--				TODO: scale image and implement it correctly.-->
+				<img src="Black Icon Trans.png" width="80" height="54" alt="S7 Mini Logo" id="S7 Icon Nav Logo">
 			</a>
 		</div>
-		<ul class="navbar-nav flex-row-reverse">
+		<ul class="navbar-nav flex-row-reverse" id="header navbar">
 			<li class="nav-item active ">
 				<a class="nav-link" href="#">Contact Us</a>
 			</li>
@@ -41,22 +43,25 @@
 		</ul>
 	</div>
 </nav>
-
-<div class="card float-sm-right border-0 pb-5" style="height: 12.5em">
+<!--This is a card to not be seen but to hold the full text logo in place.-->
+<!--TODO: Find out if this card is even really needed in order to hold the logo in place.-->
+<div class="card float-sm-right border-0 pb-5" style="height: 12.5em" id="full-text-logo-box">
 	<div class="row no-gutters">
 		<div class="col-md-9"></div>
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="Full%20Text%20Trans.png" class="card-img" alt="Seraph7">
+<!--			TODO: Scale image and implement correctly.-->
+			<img src="Full%20Text%20Trans.png" class="card-img" alt="Seraph7" id="Seraph7 top logo">
 		</div>
 	</div>
 </div>
 <!--This is the About S7 card based at the top of the site.-->
 <div class="w-80 float-sm-right">
-<div class="container card mb-5" style="width: 100em; height: 30em" id="About">
+<div class="container card mb-5" style="width: 100em; height: 30em" id="About S7">
 	<div class="row no-gutters">
 		<div class="col-md-9">
 			<div class="card-body">
+<!--				TODO: Enlarge and position text to desired point.-->
 				<h5 class="card-title">About Seraph7:</h5>
 				<p class="card-text">It is the name of your true self. You've only forgotten. I know there is good in you. The Emperor hasn't driven it from you fully. That is why you couldn't destroy me. That's why you won't bring me to your Emperor now. I see you have constructed a new lightsaber. Your skills are complete. Indeed, you are powerful, as the Emperor has foreseen. Come with me. Obi-Wan once thought as you do. You don't know the power of the dark side. I must obey my master. I will not turn...and you'll be forced to kill me. If that is your destiny.</p>
 				<p class="card-text"><small class="text-muted">-_____(Creator of ____)</small></p>
@@ -64,7 +69,8 @@
 		</div>
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="S7-Wing-Trans.png" class="card-img" alt="S7 1-Wing">
+<!--			TODO: Scale image and implement correctly.-->
+			<img src="S7-Wing-Trans.png" class="card-img" alt="S7 1-Wing" id="S7 one wing logo">
 		</div>
 	</div>
 </div>
@@ -74,7 +80,7 @@
 	<div class="row no-gutters">
 		<!--		This should show the logo icon to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="Green%20Full%20Trans.png" class="card-img" alt="S7 Icon">
+			<img src="Black%20Full%20Trans.png" class="card-img" alt="S7 Icon" id="s7-full-logo">
 		</div>
 		<div class="col-md-9">
 			<div class="card-body">
@@ -88,13 +94,13 @@
 	<div class="row no-gutters">
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" class="card-img" alt="Discord Symbol">
+			<img src="https://discordapp.com/assets/41484d92c876f76b20c7f746221e8151.svg" class="card-img" alt="Discord Symbol">
 		</div>
 		<div class="col-md-9">
 			<div class="card-body">
 				<h5 class="card-title">Seraph7 Discords:</h5>
 				<div class="btn-group">
-					<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="discord dropdown">
 						Join a Seraph7 Discord Server!
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -104,16 +110,16 @@
 						<a class="dropdown-item" href="#">Seraph7 Monster Hunter World</a>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 </div>
 <!--This is the testimonials section of the site.-->
+<!--TODO: Adjust positioning of the content within this box.-->
 <div class="container card float-sm-left my-5" style="width: 100em;; height: 30em" id="Testimonials">
 	<div class="row no-gutters">
 		<div class="col-md-12">
-			<div class="card-body">
+			<div class="card-body" id="person quotes">
 				<h5 class="card-title">Seraph7 Testimonials:</h5>
 				<div class="row text-center py-5">
 					<div class="col-lg-3">
@@ -138,7 +144,8 @@
 	</div>
 </div>
 <!--This is the contact us form of the site meant to be able to email myself.-->
-<div class="container card float-sm-right my-5" style="width: 100em; height: 30em" id="Contact">
+<!--TODO: Adjust positioning of this box.-->
+<div class="container card float-sm-right my-5" style="width: 100em; height: 30em" id="Contact form">
 	<div class="row no-gutters">
 		<div class="col-md-9">
 			<div class="card-body">
@@ -166,22 +173,23 @@
 							RECAPTCHA
 						</label>
 					</div>
-					<button type="submit" class="btn btn-primary">Send</button>
+					<button type="submit" class="btn btn-primary" id="send-button">Send</button>
 				</form>
 			</div>
 		</div>
 	</div>
 </div>
 <!--This is my footer that sits at the bottom of my webpage.-->
-<footer class="fixed-bottom navbar navbar-light bg-light">
+<!--TODO: Switch these scaling to CSS file and not inline CSS.-->
+<footer class="fixed-bottom navbar navbar-light bg-light" id="footer nav">
 	<a class="navbar-brand" href="#">
-		<img src="Twitch-Glitch-Purple.png" width="30" height="30" alt="Twitch">
+		<img src="Twitch-Glitch-Purple.png" width="30" height="30" alt="Twitch" id="bottom twitch icon">
 	</a>
 	<a class="navbar-brand" href="#">
-		<img src="Discord-Logo-Color.png" width="40" height="40" alt="Discord">
+		<img src="Discord-Logo-Color.png" width="40" height="40" alt="Discord" id="bottom discord icon">
 	</a>
 	<a class="navbar-brand" href="#">
-		<img src="Twitter-Icon.png" width="30" height="30" alt="Twitter">
+		<img src="Twitter-Icon.png" width="30" height="30" alt="Twitter" id="bottom twitter icon">
 	</a>
 </footer>
 
