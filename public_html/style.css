@@ -4,7 +4,15 @@ body {
 #full-text-logo-box
  {
 	background-color: #007f79;
+	height: 12.5em;
 }
 #send-button {
 	background-color: #007f79;
+}
+#S7-icon-nav-logo {
+	width: 5rem;
+	height: 3.375rem;
+}
+#Seraph7-top-logo {
+	display: flex;
 }
