@@ -20,18 +20,35 @@ body {
 	flex-direction: row-reverse;
 }
 /*The Cards are listed below:*/
+/*Quote Card in below:*/
+#Quote {
+	text-align: right;
+}
+#s7-full-logo {
+	width: 37.5rem;
+	height: 25.25rem;
+	display: flex;
+	align-items: center;
+}
+#dangerous-alone{
+	margin: 12rem 0 0 0;
+}
+#dangerous-alone-text {
+	font-size: larger;
+}
+/*About S7 Card below:*/
 #About-S7 {
 
 }
-#Quote {
-
-}
+/*Discord card is below:*/
 #Discord {
 
 }
+/*Testimonial card is below:*/
 #Testimonials {
 
 }
+/*The contact card is below:*/
 #Contact-form {
 
 }
