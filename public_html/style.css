@@ -9,6 +9,11 @@ body {
 }
 #send-button {
 	background-color: #007f79;
+	color: white;
+}
+#reset-button {
+	background-color: #686868;
+	color: white;
 }
 #S7-icon-nav-logo {
 	width: 4.5rem;
