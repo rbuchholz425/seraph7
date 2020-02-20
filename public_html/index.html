@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	
 <!--	Bootstrap implementation code below:-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -9,51 +10,45 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 	<!-- jQuery Form, Additional Methods, Validate -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
 	<!-- Your JavaScript Form Validator -->
 	<script src="js/form-validate.js"></script>
+
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+
 <!--	Site Title (Tab Title)-->
 	<title>Seraph7</title>
 <!--	TODO: Fix the size of all of the cards to fit the mock-up.-->
 </head>
 <body>
+
 <!--Nav-bar at the top of my site page-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-			  aria-label="Toggle navigation" id="mobile button">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarNav">
-		<!--		This is the logo icon meant to always be on the right side of the navbar.-->
-		<div class="collapse navbar-collapse">
-			<a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">
 				<img src="Black Icon Trans.png" alt="S7 Mini Logo" id="S7-icon-nav-logo">
 			</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-link nav-item active" href="#Contact-form">Contact Us</a>
+			<a class="nav-link nav-item active" href="#Testimonials">Testimonials</a>
+			<a class="nav-link nav-item active" href="#Discord">Discords</a>
+			<a class="nav-link nav-item active" href="#About-S7">About S7</a>
 		</div>
-		<ul class="navbar-nav flex-row-reverse" id="header navbar">
-			<li class="nav-item active ">
-				<a class="nav-link" href="#Contact-form">Contact Us</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="#Testimonials">Testimonials</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="#Discord">Discords</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="#About-S7">About S7</a>
-			</li>
-		</ul>
 	</div>
 </nav>
+
 <!--This is a card to not be seen but to hold the full text logo in place.-->
 <!--TODO: Find out if this card is even really needed in order to hold the logo in place.-->
-<div class="card float-sm-right border-0 pb-5" id="full-text-logo-box">
+<div class="card float-sm-right border-0 pb-3" id="full-text-logo-box">
 	<div class="row no-gutters">
 		<div class="col-md-8"></div>
 		<!--		This should show the one wing image to the right of the text in the card.-->
@@ -63,46 +58,51 @@
 		</div>
 	</div>
 </div>
+
 <!--This will be the famous quote box tag line box on the site-->
-<div class="container card float-sm-right my-5" style="width: 100em;; height: 30em" id="Quote">
-	<div class="row">
+
+<div class="float-right card my-5 col-md-10" id="Quote">
+	<div class="row no-gutters">
 		<!--		This should show the logo icon to the right of the text in the card.-->
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<img src="Black%20Full%20Trans.png" class="card-img" alt="S7 Icon" id="s7-full-logo">
 		</div>
-		<div class="col-md-9">
+		<div class="col-md-8">
 			<div class="card-body" id="dangerous-alone">
 				<h5 class="card-title" id="dangerous-alone-text">It's dangerous to go alone, take some friends!</h5>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--This is the About S7 card based at the top of the site.-->
-<div class="w-80 float-sm-left" id="About-S7">
-	<div class="container card my-5" style="width: 100em; height: 30em">
+<div class="card my-5 float-left col-md-10" id="About-S7">
 		<div class="row no-gutters">
 			<div class="col-md-9">
 				<div class="card-body">
 					<!--				TODO: Enlarge and position text to desired point.-->
 					<h5 class="card-title">About Seraph7:</h5>
-					<p class="card-text">It is the name of your true self. You've only forgotten. I know there is good in you. The Emperor hasn't driven it from you fully. That is why you couldn't destroy me. That's why you won't bring me to your Emperor now. I see you have constructed a new lightsaber. Your skills are complete. Indeed, you are powerful, as the Emperor has foreseen. Come with me. Obi-Wan once thought as you do. You don't know the power of the dark side. I must obey my master. I will not turn...and you'll be forced to kill me. If that is your destiny.</p>
+					<p class="card-text" id="About-S7-Text">It is the name of your true self. You've only forgotten. I know there is good in you. The Emperor hasn't driven it from you fully. That is why you couldn't destroy me. That's why you won't bring me to your Emperor now. I see you have constructed a new lightsaber. Your skills are complete. Indeed, you are powerful, as the Emperor has foreseen. Come with me. Obi-Wan once thought as you do. You don't know the power of the dark side. I must obey my master. I will not turn...and you'll be forced to kill me. If that is your destiny.
+						It is the name of your true self. You've only forgotten. I know there is good in you. The Emperor hasn't driven it from you fully. That is why you couldn't destroy me. That's why you won't bring me to your Emperor now. I see you have constructed a new lightsaber. Your skills are complete. Indeed, you are powerful, as the Emperor has foreseen. Come with me. Obi-Wan once thought as you do. You don't know the power of the dark side. I must obey my master. I will not turn...and you'll be forced to kill me. If that is your destiny.</p>
 					<p class="card-text"><small class="text-muted">-_____(Creator of ____)</small></p>
 				</div>
 			</div>
+
 			<!--		This should show the one wing image to the right of the text in the card.-->
 			<div class="col-md-3">
 				<!--			TODO: Scale image and implement correctly.-->
 				<img src="S7-Wing-Trans.png" class="card-img" alt="S7 1-Wing" id="S7 one wing logo">
 			</div>
 		</div>
-	</div>
 </div>
+
 <!--This is discord dropdown selection portion of the site.-->
-<div class="container card float-sm-right my-5" style="width: 100em;; height: 30em" id="Discord">
+<div class="card float-right my-5 col-md-10" id="Discord">
 	<div class="row no-gutters">
+
 		<!--		This should show the one wing image to the right of the text in the card.-->
 		<div class="col-md-3">
-			<img src="Discord-Logo-Color.png" class="card-img" alt="Discord Symbol">
+			<img src="Discord-Logo-Color.png" class="card-img" alt="Discord Symbol" id="Discord-Symbol">
 		</div>
 		<div class="col-md-9">
 			<div class="card-body">
@@ -112,27 +112,30 @@
 						Join a Seraph7 Discord Server!
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="https://discord.gg/muGEybM">Seraph7 Main</a>
-						<a class="dropdown-item" href="#">Seraph7 LoL (null)</a>
-						<a class="dropdown-item" href="#">Seraph7 The Division 2 (null)</a>
-						<a class="dropdown-item" href="#">Seraph7 Monster Hunter World (null)</a>
+						<a class="dropdown-item" href="https://discord.gg/muGEybM">Seraph7: Flagship</a>
+						<a class="dropdown-item" href="https://discord.gg/KtjBxMF">Seraph7: League of Legends</a>
+						<a class="dropdown-item" href="https://discord.gg/eT8zGPR">Seraph7: APEX Legends</a>
+						<a class="dropdown-item" href="https://discord.gg/h5XZMx9">Seraph7: Minecraft</a>
+						<a class="dropdown-item" href="https://discord.gg/tSMkAqG">Seraph7: Escape From Tarkov</a>
+						<a class="dropdown-item">More Coming Soon!</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--This is the testimonials section of the site.-->
 <!--TODO: Adjust positioning of the content within this box.-->
-<div class="container card float-sm-left my-5" style="width: 100em;; height: 30em" id="Testimonials">
+<div class="card float-left my-5 col-md-10" id="Testimonials">
 	<div class="row no-gutters">
 		<div class="col-md-12">
 			<div class="card-body" id="person quotes">
 				<h5 class="card-title">Seraph7 Testimonials:</h5>
 				<div class="row text-center py-5">
 					<div class="col-lg-3">
-						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
-						<p class="card-text"><small class="text-muted">-Jane Doe (Gamer)</small></p>
+						<p class="mx-4">Was so happy to find a consistent crew to play with on APEX Legends. Either you would join a game and have the most toxic players, or someone would bail as soon as they were downed. This service is great to find reliability and positivity in the community. Looking forward to finding other game communities on this site.</p>
+						<p class="card-text"><small class="text-muted">-Ryan (RESURECTOR45)</small></p>
 					</div>
 					<div class="col-lg-3">
 						<p class="mx-4">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
@@ -151,19 +154,16 @@
 		</div>
 	</div>
 </div>
+
 <!--This is the contact us form of the site meant to be able to email myself.-->
 <!--TODO: Adjust positioning of this box.-->
-<div class="container card float-sm-right my-5" style="width: 100em; height: 40em" id="Contact-form">
+<div class="card float-right my-5 col-md-10" id="Contact-form">
 	<div class="row no-gutters">
 		<div class="col-md-9">
 			<div class="card-body">
 				<h5 class="card-title">Contact Us:</h5>
-				<!--
-Begin Sample Contact Form
 
-Create your own contact form.
-Do not copy and paste this one.
--->
+				<!--Contact Form:-->
 				<form id="seraph7-form" action="../php/index.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
@@ -202,7 +202,7 @@ Do not copy and paste this one.
 								<span class="input-group-text"></span>
 								<i class="fa fa-comment" aria-hidden="true"></i>
 							</div>
-							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Type your message here (2000 characters max)"></textarea>
+							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Have a server request? Issue? Something else? Tell us! (2000 characters max)"></textarea>
 						</div>
 					</div>
 
@@ -219,35 +219,11 @@ Do not copy and paste this one.
 						<div id="output-area"></div>
 					</div>
 				</div>
-<!--				<form>-->
-<!--					<div class="form-group ml-5 pr-5">-->
-<!--						<label for="name-box"></label>-->
-<!--						<input type="text" class="form-control" id="name-box" placeholder="Name">-->
-<!--					</div>-->
-<!--					<div class="form-group">-->
-<!--						<label for="email-box"></label>-->
-<!--						<input type="email" class="form-control" id="email-box" placeholder="Email">-->
-<!--					</div>-->
-<!--					<div class="form-group ml-5 pr-5">-->
-<!--						<label for="subject-box"></label>-->
-<!--						<input type="text" class="form-control" id="subject-box" placeholder="Subject">-->
-<!--					</div>-->
-<!--					<div class="form-group">-->
-<!--						<label for="message-box"></label>-->
-<!--						<input type="text" class="form-control" id="message-box" placeholder="Message">-->
-<!--					</div>-->
-<!--					<div class="form-check">-->
-<!--						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">-->
-<!--						<label class="form-check-label" for="defaultCheck1">-->
-<!--							RECAPTCHA-->
-<!--						</label>-->
-<!--					</div>-->
-<!--					<button type="submit" class="btn btn-primary" id="send-button">Send</button>-->
-<!--				</form>-->
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--This is my footer that sits at the bottom of my webpage.-->
 <!--TODO: Switch these scaling to CSS file and not inline CSS.-->
 <footer class="footer fixed-bottom bg-light" id="footer nav">
