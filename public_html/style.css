@@ -1,9 +1,6 @@
 body {
 	background-color: #007f79;
 }
-/*#Dad {*/
-/*	padding: 0;*/
-/*}*/
 #full-text-logo-box
  {
 	background-color: #007f79;
@@ -23,9 +20,10 @@ body {
 	height: 2.9rem;
 }
 #Seraph7-top-logo {
-	display: flex;
-	justify-content:flex-start;
-	flex-direction: row-reverse;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	margin-left: 77vw;
+	width: 20vw;
 }
 /*The Cards are listed below:*/
 /*Quote Card in below:*/
@@ -64,5 +62,8 @@ body {
 }
 /*The contact card is below:*/
 #Contact-form {
+
+}
+#footer-nav {
 
 }
