@@ -16,7 +16,7 @@ body {
 	color: white;
 }
 #S7-icon-nav-logo {
-	width: 5vw;
+	width: 5rem;
 }
 #Seraph7-top-logo {
 	margin-top: 2vw;
@@ -30,7 +30,7 @@ body {
 	text-align: right;
 }
 #s7-full-logo {
-	width: 30rem;
+	width: 17.5rem;
 }
 #dangerous-alone{
 	margin: 12rem 0 0 0;
@@ -44,6 +44,9 @@ body {
 }
 #About-S7-Text {
 	font-size: 1.45rem;
+}
+#S7-one-wing-logo {
+	height: 35vw;
 }
 /*Discord card is below:*/
 #Discord {
