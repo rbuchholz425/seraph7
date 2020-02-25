@@ -59,6 +59,12 @@ body {
 #Testimonials {
 	background-color:#fff;
 }
+#Testimonials-2 {
+	border-radius: 25px;
+}
+#blank-space {
+	background-color: #007f79;
+}
 /*The contact card is below:*/
 #Contact-form {
 
