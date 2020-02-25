@@ -16,49 +16,45 @@ body {
 	color: white;
 }
 #S7-icon-nav-logo {
-	width: 4.5rem;
-	height: 2.9rem;
+	width: 5vw;
 }
 #Seraph7-top-logo {
 	margin-top: 2vw;
 	margin-bottom: 2vw;
-	margin-left: 77vw;
+	margin-left: 74vw;
 	width: 20vw;
 }
 /*The Cards are listed below:*/
 /*Quote Card in below:*/
 #Quote {
-	height: 30em;
 	text-align: right;
 }
 #s7-full-logo {
-	width: 37.5rem;
-	height: 25.25rem;
-	display: flex;
-	align-items: center;
+	width: 30rem;
 }
 #dangerous-alone{
 	margin: 12rem 0 0 0;
 }
-#dangerous-alone-text {
+#dangerous-alone-text-1 {
 	font-size: larger;
 }
 /*About S7 Card below:*/
 #About-S7 {
+
 }
 #About-S7-Text {
 	font-size: 1.45rem;
 }
 /*Discord card is below:*/
 #Discord {
-	height: 30em;
+
 }
 #Discord-Symbol{
 
 }
 /*Testimonial card is below:*/
 #Testimonials {
-	height: 30em;
+	background-color:#fff;
 }
 /*The contact card is below:*/
 #Contact-form {
