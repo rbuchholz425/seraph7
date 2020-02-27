@@ -27,48 +27,89 @@ body {
 /*The Cards are listed below:*/
 /*Quote Card in below:*/
 #Quote {
-	text-align: right;
+	height: 60vh;
+	margin-bottom: 10rem;
+}
+#Quote-2 {
+	margin-bottom: 10rem;
 }
 #s7-full-logo {
-	width: 17.5rem;
+	width: 350px;
+	height: 288px;
+	margin-top: 8rem;
 }
 #dangerous-alone{
 	margin: 12rem 0 0 0;
 }
 #dangerous-alone-text-1 {
-	font-size: larger;
+	font-size: 3.5rem;
+	font-family: Helevetica, sans-serif;
+	font-weight: bolder;
+	margin-bottom: 5rem;
 }
 /*About S7 Card below:*/
 #About-S7 {
-
+	height: 60vh;
+	margin-bottom: 10rem;
+}
+#about-s7-heading {
+	font-size: 3.5rem;
+	font-family: Helevetica, sans-serif;
+	font-weight: bolder;
 }
 #About-S7-Text {
-	font-size: 1.45rem;
+	font-size: 2rem;
+	font-family: Helevetica, sans-serif;
 }
-#S7-one-wing-logo {
-	height: 35vw;
+#founder-line {
+	font-size: 1.5rem;
+	font-family: Helevetica, sans-serif;
+	margin-left: 10rem;
 }
 /*Discord card is below:*/
 #Discord {
-
+	height: 60vh;
+	margin-bottom: 10rem;
 }
 #Discord-Symbol{
-
+	margin-top: 5rem;
+	margin-left: 5rem;
+	height: 35vh;
+}
+#discord-symbol-background {
+	margin-bottom: 10rem;
+}
+#discord-heading{
+	font-size: 3.5rem;
+	font-family: Helevetica, sans-serif;
+	font-weight: bolder;
+	margin-top: 7rem;
+	margin-bottom: 2rem;
+}
+#discord-dropdown{
+	font-size: 1.5rem;
+	font-family: Helevetica, sans-serif;
 }
 /*Testimonial card is below:*/
 #Testimonials {
-	background-color:#fff;
-}
-#Testimonials-2 {
-	border-radius: 25px;
-}
-#blank-space {
-	background-color: #007f79;
+	height: 60vh;
 }
 /*The contact card is below:*/
 #Contact-form {
-
+	margin-top: 10rem;
 }
 #footer-nav {
 
+}
+#footer-logo {
+	height: 2rem;
+}
+#bottom-twitch-icon {
+	height: 2rem;
+}
+#bottom-discord-icon {
+	height: 2.5rem;
+}
+#bottom-twitter-icon {
+	height: 2rem;
 }
