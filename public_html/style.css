@@ -26,10 +26,8 @@ body {
 }
 /*Quote Card in below:*/
 #Quote {
-	height: 60vh;
 }
 #Quote-2 {
-	height: 60vh;
 }
 #s7-full-logo {
 	width: 350px;
@@ -63,16 +61,11 @@ body {
 }
 /*Discord card is below:*/
 #Discord {
-	height: 60vh;
 }
 #Discord-Symbol{
 	margin-top: 5rem;
 	margin-left: 1rem;
 	height: 35vh;
-}
-#discord-symbol-background {
-	/*margin-top: 10rem;*/
-	/*margin-bottom: 10rem;*/
 }
 #discord-heading{
 	font-family: Helevetica, sans-serif;
@@ -114,6 +107,9 @@ padding-bottom: 7.5rem;
 #footer-logo {
 	height: 2rem;
 }
+.footer-brand {
+
+}
 #bottom-twitch-icon {
 	height: 2rem;
 }
@@ -133,6 +129,7 @@ padding-bottom: 7.5rem;
 	#Quote-2 {
 		border-radius: 0 0 4px 4px;
 		margin-bottom: 9vw;
+		text-align: center;
 	}
 
 	#dangerous-alone-text-1 {
@@ -141,16 +138,20 @@ padding-bottom: 7.5rem;
 	#discord-heading {
 		font-size: 2rem;
 		font-weight: bolder;
+		text-align: center;
 	}
 	#discord-dropdown{
 		font-size: 1.5rem;
+		text-align: center;
 	}
 	.dropdown-menu {
 		font-size: 1.25rem;
+		text-align: center;
 	}
 	#discord-symbol-background {
 		margin-top: 9vw;
 		border-radius: 4px 4px 0 0;
+		text-align: right;
 	}
 	#Discord {
 		border-radius: 0 0 4px 4px;
@@ -174,10 +175,12 @@ padding-bottom: 7.5rem;
 	#Quote {
 		margin-bottom: 9vw;
 		border-radius: 4px 0 0 4px;
+		height: 60vh;
 	}
 	#Quote-2 {
 		margin-bottom: 9vw;
 		border-radius: 0 4px 4px 0;
+		height: 60vh;
 	}
 	#dangerous-alone-text-1 {
 		font-size: 2.5rem;
@@ -201,6 +204,7 @@ padding-bottom: 7.5rem;
 		margin-top: 9vw;
 		margin-bottom: 9vw;
 		border-radius: 0 4px 4px 0;
+		height: 60vh;
 	}
 	#testimonials-headers {
 		font-size: 4rem;
@@ -223,10 +227,16 @@ padding-bottom: 7.5rem;
 		font-size: 4rem;
 	}
 	#founder-line {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 }
 /*cell phone screen if needed*/
 @media screen and (max-width: 415px) {
+	#Quote-2 {
+		padding-bottom: -5rem;
+	}
+	#Quote {
+		padding-bottom: -5rem;
+	}
 
 }
