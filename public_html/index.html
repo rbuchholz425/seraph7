@@ -47,10 +47,9 @@
 </nav>
 
 	<!--		This should show the one wing image to the right of the text.-->
-	<div>
-<!--			TODO: Scale image and implement correctly.-->
-			<img src="Full%20Text%20Trans%20(2).png" alt="Seraph7" id="Seraph7-top-logo">
-	</div>
+<div>
+		<img src="Full%20Text%20Trans%20(2).png" alt="Seraph7" id="Seraph7-top-logo">
+</div>
 
 <!--This will be the famous quote box tag line box on the site-->
 <div>
@@ -58,10 +57,10 @@
 		<div class="row">
 			<!--		This should show the logo icon to the right of the text.-->
 			<div class="col-lg-2"></div>
-			<div class="col-lg-5 bg-light rounded-left d-flex justify-content-center"  id="Quote">
+			<div class="col-lg-5 bg-light d-flex justify-content-center"  id="Quote">
 				<img src="Black%20Full%20Trans%20(2).png" alt="S7 Icon" id="s7-full-logo">
 			</div>
-			<div class="col-lg-5 bg-light rounded-right" id="Quote-2">
+			<div class="col-lg-5 bg-light" id="Quote-2">
 				<div id="dangerous-alone">
 					<h5 id="dangerous-alone-text-1">It's dangerous to go alone, take some friends!</h5>
 				</div>
@@ -76,7 +75,6 @@
 		<div class="bg-light my-5 rounded col-md-12 col-lg-10" id="About-S7">
 			<!--TODO: Enlarge and position text to desired point.-->
 				<h5 class="mt-3 ml-4" id="about-s7-heading">About Seraph7:</h5>
-			<br>
 			<br>
 			<br>
 				<p class= "mx-5" id="About-S7-Text">In today’s day and age new games come out every day and many of them are more enjoyable with a friend.
@@ -94,15 +92,15 @@
 		<div class="row">
 			<!--		This should show the one wing image to the right of the text.-->
 			<div class="col-lg-2"></div>
-			<div class=" col-lg-4 bg-light rounded-left" id="discord-symbol-background">
+			<div class=" col-lg-4 bg-light" id="discord-symbol-background">
 				<img src="Discord-Logo-Color.png" alt="Discord Symbol" id="Discord-Symbol">
 			</div>
-			<div class="col-lg-6 bg-light rounded-right"  id="Discord">
+			<div class="col-lg-6 bg-light"  id="Discord">
 				<div>
-					<h5 id="discord-heading">Seraph7 Discords:</h5>
+					<p id="discord-heading">Seraph7 Discords:</p>
 					<div class="btn-group">
 						<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="discord-dropdown">
-							Join a Seraph7 Discord Today!
+							Join a Seraph7 Discord!
 						</button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							<a class="dropdown-item" href="https://discord.gg/muGEybM" target="_blank">Seraph7: Flagship</a>
@@ -126,25 +124,29 @@
 				<div class="row">
 					<div class="bg-light col-lg-12" id="Testimonials">
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-						<h5>Seraph7 Testimonials:</h5>
+						<h5 id="testimonials-headers">Seraph7 Testimonials:</h5>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<p class="d-block w-100" alt="First slide">Was so happy to find a consistent crew to play with on APEX Legends.
+								<p class="d-block w-100" alt="First slide" id="testimonials-1">Was so happy to find a consistent crew to play with on APEX Legends.
 									Either you would join a game and have the most toxic players, or someone would bail as soon as they were downed.
 									This service is great to find reliability and positivity in the community. Looking forward to finding other game communities on this site.
-									----RESURECTOR45</p>
+									</p>
+								<p><small class="text-muted" id="testimonials-1-author">-Ryan (RESURECTOR45)</small></p>
 							</div>
 							<div class="carousel-item">
-								<p class="d-block w-100" alt="Second slide">I am an avid user of Discord in general, so this site stood out to me.
+								<p class="d-block w-100" alt="Second slide" id="testimonials-2">I am an avid user of Discord in general, so this site stood out to me.
 									I play a multitude of games which all have some form of toxicity that I personally want to avoid by getting a reliable squad.
 									This site has a few games I normally play, but the owner is working on adding more servers based on requests.
 									Small amount of servers for time being, but hopefully new requests will populate it further.
-									Nathan (BtrThNU92)</p>
+									</p>
+								<p><small class="text-muted" id="testimonials-2-author">-Nathan (BtrThNU92)</small></p>
 							</div>
 							<div class="carousel-item">
-								<p class="d-block w-100" alt="Third slide">League is by far one of the hardest games to adapt to.
+								<p class="d-block w-100" alt="Third slide" id="testimonials-3">League is by far one of the hardest games to adapt to.
 									Was told to come visit this site to seek a crew to help with the learning curve. Found an amazing group of similarly skilled players.
-									We still aren’t the best, but it’s fun and we are slowly improving. ---Alex</p>
+									We still aren’t the best, but it’s fun and we are slowly improving.
+								</p>
+								<p><small class="text-muted" id="testimonials-3-author"> -Alex (AlexDaGreat)</small></p>
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -173,7 +175,7 @@
 			<div class="row">
 				<div class="col-md-9">
 					<div class="card-body">
-						<h5 class="card-title">Contact Us:</h5>
+						<h5 class="card-title" id="contact-form-title">Contact Us:</h5>
 						<!--Contact Form:-->
 						<form id="seraph7-form" action="../php/index.php" method="post">
 							<div class="form-group">

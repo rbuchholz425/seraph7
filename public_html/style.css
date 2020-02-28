@@ -24,79 +24,96 @@ body {
 	margin-left: 74vw;
 	width: 20vw;
 }
-/*The Cards are listed below:*/
 /*Quote Card in below:*/
 #Quote {
 	height: 60vh;
-	margin-bottom: 10rem;
 }
 #Quote-2 {
-	margin-bottom: 10rem;
+	height: 60vh;
 }
 #s7-full-logo {
 	width: 350px;
 	height: 288px;
-	margin-top: 8rem;
+	margin-top: 6rem;
 }
 #dangerous-alone{
-	margin: 12rem 0 0 0;
+	margin: 12vw 0 5vw 0;
 }
 #dangerous-alone-text-1 {
 	font-size: 3.5rem;
 	font-family: Helevetica, sans-serif;
 	font-weight: bolder;
-	margin-bottom: 5rem;
 }
+/*@media screen and*/
 /*About S7 Card below:*/
 #About-S7 {
-	height: 60vh;
 	margin-bottom: 10rem;
+	padding-bottom: 7.5rem;
 }
 #about-s7-heading {
-	font-size: 3.5rem;
 	font-family: Helevetica, sans-serif;
 	font-weight: bolder;
 }
 #About-S7-Text {
-	font-size: 2rem;
 	font-family: Helevetica, sans-serif;
 }
 #founder-line {
-	font-size: 1.5rem;
 	font-family: Helevetica, sans-serif;
 	margin-left: 10rem;
 }
 /*Discord card is below:*/
 #Discord {
 	height: 60vh;
-	margin-bottom: 10rem;
 }
 #Discord-Symbol{
 	margin-top: 5rem;
-	margin-left: 5rem;
+	margin-left: 1rem;
 	height: 35vh;
 }
 #discord-symbol-background {
-	margin-bottom: 10rem;
+	/*margin-top: 10rem;*/
+	/*margin-bottom: 10rem;*/
 }
 #discord-heading{
-	font-size: 3.5rem;
 	font-family: Helevetica, sans-serif;
 	font-weight: bolder;
 	margin-top: 7rem;
 	margin-bottom: 2rem;
 }
 #discord-dropdown{
-	font-size: 1.5rem;
 	font-family: Helevetica, sans-serif;
 }
 /*Testimonial card is below:*/
 #Testimonials {
-	height: 60vh;
+padding-bottom: 7.5rem;
+}
+#testimonials-headers {
+	font-size: 3.5vw;
+	font-family: Helevetica, sans-serif;
+	font-weight: bolder;
+	margin-top: 2vw;
+	margin-left: 2vw;
+}
+#testimonials-1 {
+	font-family: Helevetica, sans-serif;
+	margin-top: 5vw;
+}
+#testimonials-2 {
+	font-family: Helevetica, sans-serif;
+	margin-top: 5vw;
+}
+#testimonials-3 {
+	font-family: Helevetica, sans-serif;
+	margin-top: 5vw;
 }
 /*The contact card is below:*/
 #Contact-form {
-	margin-top: 10rem;
+	margin-top: 9vw;
+}
+#contact-form-title {
+	font-size: 3.5vw;
+	font-family: Helevetica, sans-serif;
+	font-weight: bolder;
 }
 #footer-nav {
 
@@ -112,4 +129,90 @@ body {
 }
 #bottom-twitter-icon {
 	height: 2rem;
+}
+
+/*Media Screens Follow Below:*/
+/*small screen*/
+@media screen and (max-width: 991px) {
+	#Quote {
+		border-radius: 4px 4px 0 0;
+	}
+	#Quote-2 {
+		border-radius: 0 0 4px 4px;
+		margin-bottom: 9vw;
+	}
+
+	#dangerous-alone-text-1 {
+		font-size: 2rem;
+	}
+	#discord-heading {
+		font-size: 2.5rem;
+		font-weight: bolder;
+	}
+	#discord-dropdown{
+		font-size: 1.5rem;
+	}
+	.dropdown-menu {
+		font-size: 1.25rem;
+	}
+	#discord-symbol-background {
+		margin-top: 9vw;
+		border-radius: 4px 4px 0 0;
+	}
+	#Discord {
+		border-radius: 0 0 4px 4px;
+		margin-bottom: 9vw;
+	}
+	.carousel-inner {
+		font-size: 1.5rem;
+	}
+}
+/*large screen*/
+@media screen and (min-width: 991px) {
+	#Quote {
+		margin-bottom: 9vw;
+		border-radius: 4px 0 0 4px;
+	}
+	#Quote-2 {
+		margin-bottom: 9vw;
+		border-radius: 0 4px 4px 0;
+	}
+	#dangerous-alone-text-1 {
+		font-size: 2.5rem;
+	}
+	#discord-heading {
+		font-size: 4rem;
+		font-weight: bolder;
+	}
+	#discord-dropdown{
+		font-size: 2rem;
+	}
+	.dropdown-menu {
+		font-size: 2rem;
+	}
+	#discord-symbol-background {
+		margin-top: 9vw;
+		margin-bottom: 9vw;
+		border-radius: 4px 0 0 4px;
+	}
+	#Discord {
+		margin-top: 9vw;
+		margin-bottom: 9vw;
+		border-radius: 0 4px 4px 0;
+	}
+	.carousel-inner {
+		font-size: 2rem;
+	}
+}
+/*large screen*/
+@media screen and (min-width: 768px) {
+	#About-S7-Text{
+		font-size: 2rem;
+	}
+	#about-s7-heading{
+		font-size: 5rem;
+	}
+	#founder-line {
+		font-size: 1rem;
+	}
 }
