@@ -88,35 +88,28 @@ body {
 padding-bottom: 7.5rem;
 }
 #testimonials-headers {
-	font-size: 3.5vw;
 	font-family: Helevetica, sans-serif;
-	font-weight: bolder;
 	margin-top: 2vw;
 	margin-left: 2vw;
 }
 #testimonials-1 {
 	font-family: Helevetica, sans-serif;
-	margin-top: 5vw;
+	margin-top: 3vw;
 }
 #testimonials-2 {
 	font-family: Helevetica, sans-serif;
-	margin-top: 5vw;
+	margin-top: 3vw;
 }
 #testimonials-3 {
 	font-family: Helevetica, sans-serif;
-	margin-top: 5vw;
+	margin-top: 3vw;
 }
 /*The contact card is below:*/
 #Contact-form {
 	margin-top: 9vw;
 }
 #contact-form-title {
-	font-size: 3.5vw;
 	font-family: Helevetica, sans-serif;
-	font-weight: bolder;
-}
-#footer-nav {
-
 }
 #footer-logo {
 	height: 2rem;
@@ -146,7 +139,7 @@ padding-bottom: 7.5rem;
 		font-size: 2rem;
 	}
 	#discord-heading {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		font-weight: bolder;
 	}
 	#discord-dropdown{
@@ -163,8 +156,17 @@ padding-bottom: 7.5rem;
 		border-radius: 0 0 4px 4px;
 		margin-bottom: 9vw;
 	}
-	.carousel-inner {
+	#testimonials-headers {
 		font-size: 1.5rem;
+		font-weight: bolder;
+		margin-top: 1rem;
+	}
+	.carousel-inner {
+		font-size: 1rem;
+	}
+	#contact-form-title {
+		font-size: 1.5rem;
+		font-weight: bolder;
 	}
 }
 /*large screen*/
@@ -200,8 +202,16 @@ padding-bottom: 7.5rem;
 		margin-bottom: 9vw;
 		border-radius: 0 4px 4px 0;
 	}
+	#testimonials-headers {
+		font-size: 4rem;
+		font-weight: bolder;
+	}
 	.carousel-inner {
 		font-size: 2rem;
+	}
+	#contact-form-title {
+		font-size: 3.5vw;
+		font-weight: bolder;
 	}
 }
 /*large screen*/
@@ -210,9 +220,13 @@ padding-bottom: 7.5rem;
 		font-size: 2rem;
 	}
 	#about-s7-heading{
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	#founder-line {
 		font-size: 1rem;
 	}
+}
+/*cell phone screen if needed*/
+@media screen and (max-width: 415px) {
+
 }
