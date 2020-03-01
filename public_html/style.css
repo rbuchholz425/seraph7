@@ -155,7 +155,7 @@ padding-bottom: 7.5rem;
 	#Discord {
 		border-radius: 0 0 4px 4px;
 		margin-bottom: 9vw;
-		height: 35vh;
+		height: 40vh;
 	}
 	#testimonials-headers {
 		font-size: 1.5rem;
@@ -189,6 +189,9 @@ padding-bottom: 7.5rem;
 	#discord-heading {
 		font-size: 4rem;
 		font-weight: bolder;
+	}
+	#Discord-Symbol {
+		margin-left: 9vw;
 	}
 	#discord-dropdown{
 		font-size: 2rem;
@@ -242,5 +245,8 @@ padding-bottom: 7.5rem;
 	#dangerous-alone-text-1 {
 		font-size: 2rem;
 		font-weight: bolder;
+	}
+	#Discord {
+		height: 40vh;
 	}
 }
