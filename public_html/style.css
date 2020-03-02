@@ -40,7 +40,6 @@ body {
 #dangerous-alone-text-1 {
 	font-family: Helevetica, sans-serif;
 }
-/*@media screen and*/
 /*About S7 Card below:*/
 #About-S7 {
 	margin-bottom: 10rem;
@@ -62,7 +61,6 @@ body {
 }
 #Discord-Symbol{
 	margin-top: 5rem;
-	margin-left: 1rem;
 	height: 35vh;
 }
 #discord-heading{
@@ -187,7 +185,7 @@ padding-bottom: 7.5rem;
 		font-weight: bolder;
 	}
 	#discord-heading {
-		font-size: 4rem;
+		font-size: 3.5rem;
 		font-weight: bolder;
 	}
 	#Discord-Symbol {
@@ -211,14 +209,14 @@ padding-bottom: 7.5rem;
 		height: 60vh;
 	}
 	#testimonials-headers {
-		font-size: 4rem;
+		font-size: 3.5rem;
 		font-weight: bolder;
 	}
 	.carousel-inner {
 		font-size: 2rem;
 	}
 	#contact-form-title {
-		font-size: 3.5vw;
+		font-size: 3.5rem;
 		font-weight: bolder;
 	}
 }
@@ -228,7 +226,7 @@ padding-bottom: 7.5rem;
 		font-size: 2rem;
 	}
 	#about-s7-heading{
-		font-size: 4rem;
+		font-size: 3.5rem;
 	}
 	#founder-line {
 		font-size: 2rem;
