@@ -49,7 +49,7 @@ body {
 }
 #founder-line {
 	font-family: Helevetica, sans-serif;
-	margin-left: 10rem;
+	margin-left: 5rem;
 }
 /*Discord card is below:*/
 #discord-heading{
@@ -91,9 +91,6 @@ padding-bottom: 5rem;
 #footer-logo {
 	height: 2rem;
 }
-.footer-brand {
-
-}
 #bottom-twitch-icon {
 	height: 2rem;
 }
@@ -126,6 +123,7 @@ padding-bottom: 5rem;
 	#Quote-2 {
 		border-radius: 0 0 4px 4px;
 		margin-bottom: 9vw;
+		padding-bottom: 5vw;
 		text-align: center;
 	}
 	#About-S7-Text{
